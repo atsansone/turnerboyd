@@ -31,7 +31,7 @@ safe:        false
 # server:      false    # deprecated
 host:        0.0.0.0
 port:        4010
-baseurl:     ""
+baseurl:     "/turnerboyd"
 url:         http://localhost:4010
 lsi:         false
 
