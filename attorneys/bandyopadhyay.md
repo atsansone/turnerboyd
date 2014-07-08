@@ -11,8 +11,8 @@ attorneyVCard: Bandyopadhyay
 linkedin: www.linkedin.com/pub/esha-bandyopadhyay/0/860/3ba
 
 education: |
-	* University of California, San Diego, B.A. (summa cum laude) with highest departmental distinction, 1996
-	* University of California, Berkeley School of Law (Boalt Hall), J.D., 2000
+  * University of California, San Diego, B.A. (summa cum laude) with highest departmental distinction, 1996
+  * University of California, Berkeley School of Law (Boalt Hall), J.D., 2000
 
 ---
 For over a decade, Esha has been practicing intellectual property and technology-related commercial litigation and counseling in the Bay Area, with a primary focus on patent disputes. Esha has successfully represented companies ranging in size from Fortune 100 to emerging start-ups, as well as individual inventors, in high-stakes litigation. Esha&#8217;s patent litigation engagements have involved diverse industries such as wireless standards, optical character recognition, image processing, anti-virus and encryption software, social media, photo-sharing, medical devices, and various consumer products. Esha also has significant experience with trade secret disputes in high-tech industries, and has litigated numerous copyright, trademark, Internet, and false advertising matters. 

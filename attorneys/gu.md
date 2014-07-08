@@ -8,16 +8,15 @@ attorneyTitle: Associate
 attorneyPhone: 650 529 4752
 attorneyEmail: gu
 attorneyVCard: Gu
-linkedin: 
 
 education: |
-	* University of California Berkeley, B.S. Electrical Engineering and Computer Science 2001, Chancellor&#8217;s Scholar
-	* University of California, Hastings College of the Law, J.D., 2006
+  * University of California Berkeley, B.S. Electrical Engineering and Computer Science 2001, Chancellor&#8217;s Scholar
+  * University of California, Hastings College of the Law, J.D., 2006
 
 news: |
-	* [Turner Boyd Attorneys Featured on 2013 Super Lawyers List Once Again!](http://turnerboyd.com/turner-boyd-attorneys-featured-on-2013-super-lawyers-list-once-again/)
-	* [Zhuanjia Gu joins Turner Boyd team](http://turnerboyd.com/zhuanjia-gu-joins-turner-boyd-team/)
-	* [Find more articles](http://turnerboyd.com/search/Turner%20Boyd/?s=gu&cat=9) about Zhuanjia Gu
+  * [Turner Boyd Attorneys Featured on 2013 Super Lawyers List Once Again!](http://turnerboyd.com/turner-boyd-attorneys-featured-on-2013-super-lawyers-list-once-again/)
+  * [Zhuanjia Gu joins Turner Boyd team](http://turnerboyd.com/zhuanjia-gu-joins-turner-boyd-team/)
+  * [Find more articles](http://turnerboyd.com/search/Turner%20Boyd/?s=gu&cat=9) about Zhuanjia Gu
 
 ---
 

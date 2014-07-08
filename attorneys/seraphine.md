@@ -8,7 +8,6 @@ attorneyTitle: Of Counsel
 attorneyPhone: 650 265 6018
 attorneyEmail: seraphine
 attorneyVCard: Seraphine
-linkedin: 
 
 education: |
   * Jacksonville University, B.A., 1992

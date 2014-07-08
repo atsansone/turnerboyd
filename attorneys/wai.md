@@ -8,14 +8,13 @@ attorneyTitle: Associate
 attorneyPhone: 650 779 5842
 attorneyEmail: wai
 attorneyVCard: Wai
-linkedin: 
 
 education: |
-	* University of California, Davis School of Law, J.D., 2013 (Order of the Coif)
-	* Imperial College London, B.S. in Microbiology, 2010
+  * University of California, Davis School of Law, J.D., 2013 (Order of the Coif)
+  * Imperial College London, B.S. in Microbiology, 2010
 
 presentations: |
-	* Great SCOTUS, Batman! The Term the Supreme Court Got an IP Bee in Its Bonnet, Berkeley Center for Law and Technology, Berkeley (2014)
+  * Great SCOTUS, Batman! The Term the Supreme Court Got an IP Bee in Its Bonnet, Berkeley Center for Law and Technology, Berkeley (2014)
 
 ---
 
