@@ -27,4 +27,37 @@ ol.linenums li {
   color: #bebec5;
   line-height: 20px;
   text-shadow: 0 1px 0 #fff;
-}l
+}
+
+/* Temporary Fix */
+.jumboGreen {
+  background-color: #366d3e;
+  color: white;
+  padding: 0px;
+  margin-bottom: 30px;
+  background-image: url("/assets/img/backdrop_clean.jpg");
+  min-height: 250px; }
+
+.mainheading {
+  font: 600 64px "proxima-nova", "Helvetica Neue Roman", Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 2px #969696;
+  vertical-align: bottom; }
+
+#page-footer {
+  font-size: 10px;
+  margin-top: 15px; }
+
+.navbar-inverse .navbar-brand, .navbar-default .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  color: #90a6d8; }
+
+li.menu-subs > a {
+  font-weight: bold;
+  color: #365499; }
+
+.caption-tight {
+  text-align: left;
+  font-size: 10px; }
+
+.nav-tabs {
+  margin-bottom: 15px;
+  margin-top: 15px; }
