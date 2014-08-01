@@ -43,10 +43,6 @@ ol.linenums li {
   text-shadow: 1px 1px 2px #969696;
   vertical-align: bottom; }
 
-#page-footer {
-  font-size: 10px;
-  margin-top: 15px; }
-
 .navbar-inverse .navbar-brand, .navbar-default .navbar-brand, .navbar-inverse .navbar-nav > li > a {
   color: #90a6d8; }
 
@@ -60,4 +56,5 @@ li.menu-subs > a {
 
 .nav-tabs {
   margin-bottom: 15px;
-  margin-top: 15px; }
+  margin-top: 15px; 
+}
