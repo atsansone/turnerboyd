@@ -1,51 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>{{page.subject}}: {{page.title}}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turner Boyd: {{page.title}}</title>
+  {% include html-head.html %}
+</head>
 
-  <!--Brief page description:-->
-  <meta name="description" content="{{page.description}}">
-  <!--Name(s) of primary authors-->
-  <meta name="author" content="{{page.authors}}">
+<body class="navbar">
+  {% capture lawyer %}{{ page.firstName }} {% if page.middleInitial %}{{ page.middleInitial }} {% endif %}{{ page.lastName }}{% endcapture %}
 
-  <!--Styles-->
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> 
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
-  <link href="{{ site.baseurl }}/assets/css/prettify.css" rel="stylesheet">
-
-  <!--Custom styles-->
-  <link href="{{ site.baseurl }}/assets/css/turnerboyd.css" rel="stylesheet">
-
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Latest compiled and minified JavaScript -->
-    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
-
-    <script type="text/javascript" src="//use.typekit.net/kff2bbb.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-  </head>
-
-  <body class="{{ page.subject | downcase }}">
-
-    {% include navbar.html %}
-
-<!--
-    <div class="jumbotron jumboGreen">
-      <div class="container">
-       <div class="col-md-12">
-        <h1 class="mainheading">{{ page.subject }}</h1>
-        </div>
-      </div>
-    </div>
-  -->
+  {% include navbar.html %}
 
   <div class="container">
 
@@ -53,36 +16,46 @@
 
       <div class="col-md-8 col-md-push-4">
 
-        <div class="row-fluid">
+        <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12">
 
-            <h1>{{ page.attorneyName }}</h1>
-            <div id="page_position">{{ page.attorneyTitle }}</div>
+            <h1 class="tk-museo-slab">
+              {{ page.firstName }}
+              {% if page.middleInitial %}
+              {{ page.middleInitial }}
+              {% endif %}
+              {{ page.lastName }}
+            </h1>
+            {{ site.data.cases[1] }}
+            <div id="page_position">{{ page.title }}</div>
           </div>
 
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <h6 id="page_email" class="small" style="text-align: right;">{{ page.attorneyEmail }}@turnerboyd.com <span class="fa fa-envelope-square"></span></h6>
-            <h6 id="page_phone" class="small" style="text-align: right;">{{ page.attorneyPhone }} <span class="fa fa-phone-square"></span></h6>
-            <h6 id="page_vcf" class="small" style="text-align: right;"><a href="http://www.turnerboyd.com/VCF/{{ page.attorneyVCard }}.vcf">vCard</a> <span class="fa fa-download"></span></h6>
+            <h6 id="page_email" class="small" style="text-align: right;">{{ page.lastName | downcase }}@turnerboyd.com <span class="fa fa-envelope-square"></span></h6>
+            <h6 id="page_phone" class="small" style="text-align: right;">{{ page.phone }} <span class="fa fa-phone-square"></span></h6>
+            <h6 id="page_vcf" class="small" style="text-align: right;"><a href="http://www.turnerboyd.com/VCF/{{ page.lastName }}.vcf">vCard</a> <span class="fa fa-download"></span></h6>
             {% if page.linkedin %}
-              <h6 id="page_li" class="small" style="text-align: right;"><a href="http://{{ page.linkedin }}">LinkedIn Profile</a> <span class="fa fa-linkedin-square"></span></h6>
+            <h6 id="page_li" class="small" style="text-align: right;"><a href="http://{{ page.linkedin }}">LinkedIn Profile</a> <span class="fa fa-linkedin-square"></span></h6>
             {% endif %}
           </div>
         </div>
-<!-- Add the extra clearfix for only the required viewport -->
-  <div class="clearfix visible-md-block visible-lg-block"></div>
+        <!-- Add the extra clearfix for only the required viewport -->
+        <div class="clearfix visible-md-block visible-lg-block"></div>
         <div class="row-fluid">
 
-          <ul class="nav nav-tabs" role="tablist">
+          <ul class="nav nav-tabs" role="tablist" id="attorneyTabs">
             <li class="active"><a href="#bio" role="tab" data-toggle="tab">Profile</a></li>
             {% if page.news %}
             <li><a href="#news" role="tab" data-toggle="tab">News</a></li>
             {% endif %}
+            {% if site.data.cases[1] contains page.lastName %}
+            <li><a href="#cases" role="tab" data-toggle="tab">Cases</a></li>
+            {% endif %}
             {% if page.publications %}
-             <li><a href="#publications" role="tab" data-toggle="tab">Publications</a></li>
+            <li><a href="#publications" role="tab" data-toggle="tab">Publications</a></li>
             {% endif %}
             {% if page.presentations %}
-             <li><a href="#presentations" role="tab" data-toggle="tab">Presentations</a></li>
+            <li><a href="#presentations" role="tab" data-toggle="tab">Presentations</a></li>
             {% endif %}
           </ul>
 
@@ -92,42 +65,69 @@
             {% if page.news %}
             <div class="tab-pane fade" id="news">{{ page.news | markdownify }}</div>
             {% endif %}
-            {% if page.publications %}
-              <div class="tab-pane fade" id="publications">{{ page.publications | markdownify }}</div>
-            {% endif %}
-            {% if page.presentations %}
+            {% if site.data.cases[1] contains page.lastName %}
+            <div class="tab-pane fade" id="cases">
+              {% for rep_hash in site.data.cases %}
+              {% assign rep = rep_hash[1] %}
+              {% if rep.attorney == lawyer %}
+              <a href="{{ site.baseurl }}/attorneys/{{ rep.link }}.html">
+                {{ rep.attorney }}
+              </a>
+              <table class="table">
+                {% for case in rep.representations %}
+                <tr>
+                  <td>
+                    {{ case.client }}
+                  </td>
+                  <td>
+                    {{ case.case }}
+                  </td>
+                </tr>
+                {% endfor %}
+              </table>
+              {% endif %}
+              {% endfor %}
+
+
+              {% endif %}
+              {% if page.publications %}
+              <div class="tab-pane fade" id="publications">
+                {{ page.publications | markdownify }}
+              </div>
+              {% endif %}
+              {% if page.presentations %}
               <div class="tab-pane fade" id="presentations">{{ page.presentations | markdownify }}</div>
-            {% endif %}
+              {% endif %}
+            </div>
+
           </div>
 
         </div>
 
-      </div>
+        <div class="col-md-4 col-md-pull-8">
 
-      <div class="col-md-4 col-md-pull-8">
+          <div id="attorney-photo" class="carousel slide hidden-xs hidden-sm" data-ride="carousel" data-interval="5000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#attorney-photo" data-slide-to="0" class="active"></li>
+              <li data-target="#attorney-photo" data-slide-to="1"></li>
+              <li data-target="#attorney-photo" data-slide-to="2"></li>
+            </ol>
 
-        <div id="attorney-photo" class="carousel slide hidden-xs hidden-sm" data-ride="carousel" data-interval="5000">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#attorney-photo" data-slide-to="0" class="active"></li>
-            <li data-target="#attorney-photo" data-slide-to="1"></li>
-            <li data-target="#attorney-photo" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-             <img src="{{ site.baseurl }}/assets/img/attorneys/{{ page.attorneyEmail }}/{{ page.attorneyEmail }}1.jpg" class="img-responsive">
-           </div>
-           <div class="item">
-            <img src="{{ site.baseurl }}/assets/img/attorneys/{{ page.attorneyEmail }}/{{ page.attorneyEmail }}2.jpg" class="img-responsive">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+               <img src="{{ site.baseurl }}/assets/img/attorneys/{{ page.lastName | downcase }}/{{ page.lastName | downcase }}1.jpg" class="img-responsive">
+             </div>
+             <div class="item">
+              <img src="{{ site.baseurl }}/assets/img/attorneys/{{ page.lastName | downcase }}/{{ page.lastName | downcase }}2.jpg" class="img-responsive">
+            </div>
+            <div class="item">
+              <img src="{{ site.baseurl }}/assets/img/attorneys/{{ page.lastName | downcase }}/{{ page.lastName | downcase }}3.jpg" class="img-responsive">
+            </div>
           </div>
-          <div class="item">
-            <img src="{{ site.baseurl }}/assets/img/attorneys/{{ page.attorneyEmail }}/{{ page.attorneyEmail }}3.jpg" class="img-responsive">
-          </div>
-        </div>
 
-        <!-- Controls -->
+          <!-- Controls -->
         <!--
         <a class="left carousel-control" href="#attorney-photo" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
@@ -159,22 +159,7 @@
 
 {% include footer.html %}
 
-  <!-- JavaScript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<!--
-  <script src="/assets/js/jquery.min.js"></script>
--->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<!--
-  <script src="/assets/js/bootstrap.min.js"></script>
-  <script src="/assets/js/bootstrap-transition.js"></script>
-  <script src="/assets/js/bootstrap-alert.js"></script>
-  <script src="/assets/js/bootstrap-tab.js"></script>
-  <script src="/assets/js/prettify/prettify.js"></script>
--->
+{% include javascript.html %}
 
 </body>
 </html>

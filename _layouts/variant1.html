@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{page.subject}}: {{page.title}}</title>
+  {% include html-head.html %}
+</head>
+
+<body class="navbar">
+
+  {% include navbar-home.html %}
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+<!-- Carousel
+  ================================================== -->
+  <div id="myCarousel" class="carousel slide  hidden-xs">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="{{ site.base_url }}/assets/img/variant1/front_boyd.png" class="img-responsive">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="row">
+              <div class="col-md-offset-7 col-md-5 tb-front-caption hidden-sm hidden-xs">
+                <h1>Your ideas are important.</h1>
+                <p>No one else can defend your idea except you... and a good IP attorney. Partner Karen Boyd can help defend you from potential litigants.</p>
+                <p><a class="btn btn-lg tb-btn" href="/casestudies/">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="{{ site.base_url }}/assets/img/variant1/front_masur.png" class="img-responsive">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="row">
+              <div class="col-md-offset-7 col-md-5 tb-front-caption hidden-sm hidden-xs">
+                <h1>How do you defend yourself against a big company?</h1>
+                <p>Your idea may be worth a lot, but only if you can defend it. Turner Boyd partner <a href="/attorneys/masur.html">Joshua Masur</a> has the experience to keep your idea yours.</p>
+                <p><a class="btn btn-lg tb-btn" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="{{ site.base_url }}/assets/img/variant1/front_smith.png" class="img-responsive">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="row">
+              <div class="col-md-offset-7 col-md-5 tb-front-caption hidden-sm hidden-xs">
+                <h1>Is your IP protected everywhere?</h1>
+                <p>Intellectual property needs to be defended everywhere, not just in the United States. Turner Boyd partner <a href="/attorneys/smith.html">Matthew A. Smith</a> can keep your idea borderless. </p>
+                <p><a class="btn btn-lg tb-btn" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="{{ site.base_url }}/assets/img/variant1/front_turner.png" class="img-responsive">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="row">
+              <div class="col-md-offset-7 col-md-5 tb-front-caption hidden-sm hidden-xs">
+                <h1>How valuable is your time?</h1>
+                <p>Our attorneys know technology and law. Partner <a href="/attorneys/turner.html">Julie Turner</a> has worked with hardware and software companies to defend their interests.</p>
+                <p><a class="btn btn-lg tb-btn" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="icon-next"></span>
+    </a>  
+  </div>
+  <!-- /.carousel -->
+
+  <div class="container-fluid tb-nf-wrap hidden-xs">
+    <div class="container tb-nf-bracket ">
+      <div class="row tb-nf-scroll">
+        <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 tb-nf-head">NEWS</div>
+        <div class="col-lg-11 col-md-11 col-sm-10 col-xs-10 tb-nf-body truncate" id="newsfeed">
+          <ul>
+            <li>It Doesn’t Get Much “Cooler” Than This: Turner Boyd Wins Summary Judgment for Cooler Master and LSI</li>
+            <li>Welcome Matt Smith!</li>
+            <li>Turner Boyd Attorneys Featured on 2013 Super Lawyers List Once Again!</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+
+
+    {% if page.alert %}
+    <div class="row">
+      {% include alert.html %}
+    </div>
+    {% endif %}
+
+    <div class="row tb-front-block tb-home-header">
+      SECTORS REPRESENTED
+    </div>
+
+    <div class="row tb-front-block">
+
+      <div class="col-md-3 col-sm-6 tb-svc-rollover">
+        <span class="fa-stack fa-lg">
+          <span class="fa fa-square fa-stack-2x"></span>
+          <span class="fa fa-user-md fa-stack-1x fa-inverse tb-svc-rollover-stack"></span>
+        </span>
+        {{ page.area1 }}
+      </div>
+      <div class="col-md-3 col-sm-6 tb-svc-rollover">
+        <span class="fa-stack fa-lg">
+          <span class="fa fa-square fa-stack-2x"></span>
+          <span class="fa fa-desktop fa-stack-1x fa-inverse tb-svc-rollover-stack"></span>
+        </span>
+        {{ page.area2 }}
+      </div>
+      <div class="col-md-3 col-sm-6 tb-svc-rollover">
+        <span class="fa-stack fa-lg">
+          <span class="fa fa-square fa-stack-2x"></span>
+          <span class="fa fa-barcode fa-stack-1x fa-inverse tb-svc-rollover-stack"></span>
+        </span>
+        {{ page.area3 }}
+      </div>
+      <div class="col-md-3 col-sm-6 tb-svc-rollover">
+        <span class="fa-stack fa-lg">
+          <span class="fa fa-square fa-stack-2x"></span>
+          <span class="fa fa-code fa-stack-1x fa-inverse tb-svc-rollover-stack"></span>
+        </span>
+        {{ page.area4 }}
+      </div>
+
+    </div><!--/.row-fluid -->
+
+  </div><!--/.container-->
+
+  {% include footer.html %}
+
+  {% include javascript.html %}
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+attorney: Julie Turner
+link: turner
+representations:
+  - client: "Sun Microsystems, Inc."
+    case: "Sun Microsystems, Inc. v. Microsoft Corporation"
+    focus: JAVA™ technology litigation
+    activity: "Represented plaintiff Sun in its copyright, trademark, license breach, business tort, and unfair competition lawsuit against Microsoft regarding the JAVA™ technology. Prepared summary judgment motions that court granted and which ultimately drove a successful settlement."
+
+  - client: "Netfirms, Inc."
+    case: "Louis Vuitton Malettier, S.A. v. Netfirms, Inc."
+    focus: trademark litigation
+    activity: "Represented defendant Netfirms, a web host company, in a trademark lawsuit brought against it. Successfully moved to dismiss the litigation against Netfirms before having to answer the complaint."
+
+  - client: "Sun Microsystems, Inc."
+    case: "In re Microsoft Corporation Antitrust Litigation, Sun Microsystems, Inc. v. Microsoft Corp"
+    focus: "software and hardware technology and interfaces, including JAVA™"
+    activity: "Represented plaintiff Sun in its antitrust case against Microsoft. Sun secured a preliminary injunction requiring that Microsoft ship a Sun-compatible Java Virtual Machine with each copy of Microsoft’s Windows operating system and Internet Explorer browser. The case settled favorably to Sun, in an amount making it the largest civil antitrust settlement in history."
+
+  - client: "Poa Sana, Inc."
+    case: "Poa Sana, Inc. v. National Semiconductor"
+    focus: Touchscreen technology license dispute
+    activity: "Represented Poa Sana, an entrepreneurial technology venture, in a technology license dispute with National Semiconductor. Helped Poa Sana avoid the expense of litigation while securing a resolution on terms that were highly favorable and achieved Poa Sana’s objectives."
+
+  - client: Jitit Inc.
+    case: "Jitit Inc. v. Fuji Xerox, Ltd."
+    focus: enterprise software
+    activity: "Represented Jitit, a producer of enterprise management software, in a copyright dispute against Fuji Xerox, Ltd. Settled the dispute on the terms my client desired, without the expense of litigation."
+
+  - client: QUALCOMM Incorporated
+    case: "GTE Wireless, Inc. v. QUALCOMM Incorporated"
+    focus: cellular telephony patent
+    activity: Represented defendant QUALCOMM in patent litigation concerning cellular telephony. QUALCOMM prevailed at the trial court upon being granted summary judgment of no infringement. GTE appealed but later dropped its appeal after the QUALCOMM opposition brief was filed.
+
+  - client: "PlayFirst, Inc."
+    case: "PlayFirst, Inc. v. Alawar Entertainment Inc., et al."
+    focus: game copyrights
+    activity: "Represented plaintiff PlayFirst in copyright infringement case concerning online video games. The case settled on terms highly favorable to PlayFirst, before any complaint needed to be filed."
+
+  - client: ICOS Corporation and Lilly ICOS
+    case: "Pfizer Inc., et al. v. Eli Lilly & Company, ICOS Corporation and Lilly ICOS"
+    focus: "Viagra patent"
+    activity: "Represented defendants ICOS Corporation and the Lilly/ICOS joint venture, the makers of Cialis, in a patent litigation charging that Cialis infringed Pfizer’s Viagra patent. Discovered prior art based on centuries-old Chinese herbal remedy that ultimately led the United States Patent and Trademark Office to revoke the only asserted patent claim."
+
+  - client: "Kintera, Inc."
+    case: "Convio, Inc. v. Kintera, Inc."
+    focus: commercial defamation
+    activity: "Represented Kintera, maker of the most popular fundraising software platform, in opposing a pre-litigation subpoena concerning allegations that Kintera had participated in defamation of Convio. The Texas court granted Kintera’s motion to quash Convio’s pre-litigation discovery request, thereby resolving the matter in Kintera’s favor."

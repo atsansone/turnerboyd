@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Turner Boyd: {{page.title}}</title>
+  {% include html-head.html %}
+</head>
+
+<body class="{{ page.subject | downcase }}">
+
+  {% include navbar.html %}
+
+  <div class="container">
+
+    <div class="panel-group" id="accordion">
+
+      {% assign reps = site.data.cases | sort %}
+      {% assign repOne = reps.first %}
+      
+      {% for rep_hash in reps %}
+      {% assign rep = rep_hash[1] %}
+      {% assign repFirst = repOne[1].first[1] %}
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#{{ rep.attorney | cgi_escape }}">
+              {{ rep.attorney }}
+            </a>
+          </h4>
+        </div>
+        <div id="{{ rep.attorney | cgi_escape }}" class="panel-collapse collapse {% if rep.attorney == repFirst %}in{% endif %}">
+          <div class="panel-body">
+            {{ rep.first[1] | jsonify }}
+            {{ repFirst }}
+          </div>
+        </div>
+      </div>
+      
+      {% endfor %}
+
+    </div>
+
+  </div><!--/.container-->
+
+  {% include footer.html %}
+
+  <!-- JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!--
+  <script src="/assets/js/jquery.min.js"></script>
+-->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!--
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/bootstrap-transition.js"></script>
+  <script src="/assets/js/bootstrap-alert.js"></script>
+  <script src="/assets/js/bootstrap-tab.js"></script>
+  <script src="/assets/js/prettify/prettify.js"></script>
+-->
+
+</body>
+</html>

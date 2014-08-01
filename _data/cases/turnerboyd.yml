@@ -1,0 +1,72 @@
+attorney: Turner Boyd
+link: ""
+representations:
+  - client: "ASUS Computer International"
+    activity: "Currently defending in multiple patent and copyright infringement suits filed in jurisdictions across the country. Technologies involve video encoding, biometric sensors, wi-fi, parental control software, ergonomics, and Ethernet. Recently settled, on favorable terms, litigation in the District of Delaware involving archival storage technology after aggressively managing discovery costs."
+    focus: patent infringement
+
+  - client: "Logitech, Inc."
+    activity: "Currently defending in patent infringement action in the District of Arizona in connection with a laptop cooling pad technology."
+    focus: patent infringement
+
+  - client: Yelp!
+    activity: "Enforced Yelp!’s trademarks in the Northern District of California against Instaplak. After a key deposition of the defendant’s president, we successfully negotiated an early settlement that gave Yelp exceptional relief."
+    focus: trademark infringement
+
+  - client: "MarketQuest Group, Inc."
+    activity: "Defended MarketQuest, which develops and markets personalized swag, in patent infringement litigation. Turner Boyd was retained three weeks before trial began, after four years of litigation. On the third day of trial, opposing counsel abruptly sought leave to withdraw, leading to dismissal with prejudice."
+    focus: patent infringement
+
+  - client: "Sweet & Low"
+    court: Northern District of California
+    activity: "Defending makers of Sweet & Low in false patent marking litigation in the Northern District of California."
+    focus: patent infringement
+
+  - client: "Adamas Pharmaceuticals and Tethys Bioscience"
+    court: United States Supreme Court
+    focus: Bilski amicus brief
+    activity: "Represented personalized medicine companies Adamas Pharmaceuticals and Tethys Bioscience in filing an amicus curiae brief in the United States Supreme Court on the landmark patentable subject matter case, Bilski v. Kappos."
+
+  - client: Netfirms
+    court: Central District of California
+    activity: "Defended internet service provider in a contributory trademark and copyright infringement dispute in the Central District of California involving allegations of counterfeit Louis Vuitton goods. Won motion to dismiss on the grounds of improper service and negotiated a highly favorable settlement that did not involve an injunction, while other targets of the plaintiff have been held liable for eight-figure damages claims. See “Web hosters ordered to pay $32M for contributing to trademark infringement,” ComputerWorld (9/1/09)"
+    focus: trademark infringement
+
+  - client: Otter Box
+    activity: "Currently enforcing intellectual property rights of this fast-growing innovator in protective covers for iPods, Blackberries, cell phones, and other personal electronics."
+
+  - client: Finelite
+    activity: "Currently defending against Philips subsidiary Ledalite Architectural Products’ claims that Finelite’s high-performance, high-efficiency, California-built industrial lighting systems infringe certain Ledalite design patents. Currently representing Finelite against Ledalite in case asserting false patent marking, false advertising, and unfair competition."
+    focus: patent infringement
+
+  - client: Rave Wireless
+    activity: "Defending a patent infringement suit involving 'Rave Alert' technology rolled out by universities nationwide in the wake of the Virginia Tech tragedy."
+    focus: patent infringement
+
+  - client: "Poa Sana, Inc."
+    case: "Poa Sana, Inc. v. National Semiconductor"
+    activity: "Represented entrepreneurial technology venture in a technology license dispute with National Semiconductor. Helped Poa Sana avoid the expense of litigation while securing a highly favorable resolution that achieved the client’s objectives."
+    focus: license enforcement
+
+  - client: Brilliant Store
+    activity: Currently defending in patent infringement litigation with Apple involving computer peripherals and accessories.
+    focus: patent infringement
+
+  - client: Channel Islands Sidewalk Grinding
+    activity: Currently defending in patent infringement litigation for concrete cutting methods. Defeated a motion for a temporary restraining order in connection with a city contract to repair sidewalks.
+    focus: patent infringement
+
+  - client: Memory Dealers
+    activity: Currently representing against a former employee and a competitor in an embezzlement and trade secret case involving optical transceivers.
+
+  - client: "newScale, Inc."
+    activity: "Enforced software license against Motorola, successfully negotiating settlement prior to substantial discovery costs."
+    focus: license enforcement
+
+  - client: Oklahoma Medical Research Foundation
+    activity: "Defended patent infringement action in the Northern District of California involving Alzheimer’s Disease research tools. Won a transfer motion that allowed OMRF to fight this case on its home turf in Oklahoma."
+    focus: patent infringement
+
+  - client: Pool Cover Specialists
+    activity: Defending Pool Cover Specialists in a patent infringement suit involving swimming pool covers.
+    focus: patent infringement

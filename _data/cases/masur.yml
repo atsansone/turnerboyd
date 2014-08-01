@@ -1,0 +1,78 @@
+attorney: Joshua Masur
+link: masur
+representations:
+  - client: "Monster Cable Products, Inc."
+    case: "Monster Cable Products, Inc. v. The Quest Group d/b/a AudioQuest"
+    court: Northern District of California
+    practicearea: Patent Infringement
+    activity: Asserted patent on use of electromechanical bias to improve quality of signal transmission in audio cables.
+    date: 10/13/2005
+    summary: https://casetext.com/case/monster-cable-products-7
+
+  - client: "Monster Cable Products, Inc."
+    case: "Monster Cable Products, Inc. v. The Quest Group d/b/a AudioQuest"
+    court: Federal Circuit
+    practicearea: Patent Infringement
+    activity: Asserted patent on use of electromechanical bias to improve quality of signal transmission in audio cables.
+    date: 1/11/2007
+
+  - client: Adobe Systems Inc.
+    case: "Agfa Monotype Corp. v. Adobe Systems Inc., and International Typeface Corp. v. Adobe Systems Inc."
+    court: Northern District of Illinois
+    activity: "Defended Adobe against allegations that Adobe Acrobat was designed to circumvent technical controls over use of type fonts, in violation of Digital Millennium Copyright Act and licensing agreements between the parties."
+
+  - client: Open Source Yoga Unity
+    case: Open Source Yoga Unity v. Bikram Choudhury
+    court: Northern District of California
+    activity: "Represented outgoing counsel for declaratory judgment plaintiff against charges of breach of duty of confidentiality based on alleged conflicts of interest in action involving alleged copyrights in sequences of yoga poses. Successful substitution of counsel resulted in immediate settlement, including royalty-free license to members of trade association."
+    date: 5/5/2005
+
+  - client: Delphi Corp.
+    case: Litex Inc. v. Delphi Corp.
+    court: District of Massachusetts
+    activity: "Defended Delphi against patent allegedly covering use of plasma for automotive exhaust aftertreatment. Settled into arbitration during trial, with successful arbitration."
+
+  - client: Symantec
+    case: Chan v. Intuit
+    court: Northern District of California
+    activity: Defended Symantec against patent allegedly covering use of hyperlinks on CD-ROMs.
+
+  - client: "Palm, Inc."
+    case: "Connelly et al v. Palm, Inc."
+    court: San Francisco Superior
+    activity: Defended Palm against product liability suits alleging damage due to electrostatic discharge.
+
+  - client: "Palm, Inc."
+    case: "Hemmingsen v. Palm, Inc."
+    court: Santa Clara Superior
+    activity: Defended Palm against product liability suits alleging damage due to electrostatic discharge.
+
+  - client: Sonic Solutions
+    case: "Sonic Solutions v. Spruce Technologies, Inc."
+    court: Northern District of California
+    activity: Enforced copyrights for user interfaces for DVD authoring software.
+
+  - client: Symantec Corp.
+    case: "Altiris, Inc. v. Symantec Corp."
+    court: District of Utah
+    activity: Defended against patent for remote control of computer boot process.
+
+  - client: "Silicon Storage Technology"
+    case: "In the Matter of Certain EPROM, EEPROM, Flash Memory, and Flash Microcontroller Semiconductor Devices"
+    court: "U.S. International Trade Commission; Federal Circuit"
+    activity: Asserted patents for automatic identification of and on-chip charge pumps in flash memory products. $40 million trial court judgment and ITC Limited Exclusion Order upheld on appeal.
+
+  - client: "Silicon Storage Technology"
+    case: "Atmel Corp. v. Silicon Storage Technology"
+    court: "Northern District of California; Federal Circuit"
+    activity: Asserted patents for automatic identification of and on-chip charge pumps in flash memory products. $40 million trial court judgment and ITC Limited Exclusion Order upheld on appeal.
+
+  - client: "Mentat Inc."
+    case: "Wind River Systems, Inc. v. Mentat Inc."
+    court: Alameda Superior
+    activity: Copyright litigation involving network protocols and associated software.
+
+  - client: TCI
+    case: Town of Los Gatos and City of Saratoga v. TCI
+    court: Santa Clara Superior
+    activity: "Enforced cable television franchise agreements requiring advantageous placement of public access television channels. Settled with new franchise agreements, including funding support for public access channels."

@@ -1,0 +1,69 @@
+attorney: Karen Boyd
+link: boyd
+representations:
+  - client: "Google, Inc."
+    activity: "Consulted for Google, Inc. on patent litigation management, including outside counsel management and cost reduction."
+
+  - client: Unither Pharmaceuticals
+    case: Unither Pharmaceuticals v. Herbalife et al.
+    focus: L-arginine for treatment of vascular disorders
+    activity: "Represented Unither in a patent infringement suit asserting several Unither patents against multiple defendants. Successfully transferred and consolidated all actions into a single forum, and directed the discovery and strategy of the case, which drove a successful monetary settlement including a royalty-bearing license."
+
+  - client: Kyphon Inc.
+    case: Medtronic v. Kyphon Inc.
+    focus: Medical devices and procedures for treatment of osteoporosis
+    activity: "Represented Kyphon in a patent infringement suit involving multiple patents asserted by both parties. Following extensive discovery in connection with Kyphon’s preliminary injunction motion, and a week-long hearing on that motion, the case settled, with Medtronic acquiring Kyphon for $4.2 billion."
+
+  - client: Microsoft
+    case: Typeright Corp. v. Microsoft
+    focus: ergonomic keyboards
+    activity: "Successfully defended Microsoft in a patent infringement suit by Typeright on three utility patents and two design patents related to ergonomic computer keyboards. Tracked down 20-year-old prior art in Germany that led to summary judgment of invalidity."
+
+  - client: "Pliva Pharmaceuticals et al."
+    case: "GlaxoSmithKline v. Pliva Pharmaceuticals et al."
+    focus: Anti-nausea drugs
+    activity: "Represented Pliva (now Barr Pharmaceuticals) in a series of patent infringement suits and appeals brought by GlaxoSmithKline related to Pliva’s generic version of GlaxoSmithKline’s Zofran® product. Strategies included district court and FDA regulatory approaches, including Citizens’ Petitions. The case settled with a substantial business agreement between the parties, including Glaxo’s acquisition of Pliva’s R&D arm in Croatia."
+
+  - client: "SeaChange International, Inc."
+    case: "nCube Corp. v. SeaChange International, Inc."
+    focus: video server technology
+    activity: "Represented SeaChange in a series of litigations against nCube, including two jury trials. The suits concerned the parties’ video servers for video-on-demand. In the first suit, the case went to trial within three months of the complaint being filed."
+
+  - client: Kyphon Inc.
+    case: Kyphon Inc. v. Disc-Orthopedic Technologies Ltd.
+    focus: Medical devices and procedures for treatment of osteoporosis
+    activity: "Represented Kyphon Inc. in a patent infringement suit against Disc-Orthopedic Technologies in both the International Trade Commission and district court asserting five Kyphon patents. Jury verdict of infringement, followed by settlement including the withdrawal of the defendants from the U.S. market. Kyphon later acquired Disc-O-Tech."
+
+  - client: Mayo Foundation
+    case: Elan Pharmaceuticals v. Mayo Foundation
+    focus: Transgenic mice
+    activity: "Defended the Mayo Foundation in a patent infringement suit by Elan Pharmaceuticals on two patents related to transgenic mice used for Alzheimer’s disease research. Summary judgment of invalidity granted, but reversed on appeal on issue of inherent anticipation. Petition for hearing en banc granted and the panel reissued a revised decision on another ground. The case settled on remand, with the parties cross-licensing patent portfolios so that both parties could continue their Alzheimer’s research."
+
+  - client: Varian
+    case: Unaxis Balzers v. Varian
+    focus: Mass spectrometer leak detectors
+    activity: "Defended Varian in a patent infringement suit. Varian sells leak detectors used to assess vacuums in scientific equipment. Following an early development of the fundamentals of the case, the case settled for less than the cost of continued litigation."
+
+  - client: PolyMASC
+    case: PolyMASC v. Alza
+    focus: PEGylated liposomes
+    activity: "Represented PolyMASC in a patent infringement suit. PolyMASC asserted a patent on PEGylated liposomes used for drug delivery. The U.S. dispute was part of a world-wide series of lawsuits and patent oppositions, which resulted in a payment of $6.5 million to PolyMASC."
+
+  - client: "Smith & Nephew, Inc."
+    case: "ArthroCare Corp. v. Smith & Nephew, Inc."
+    focus: electrosurgical devices for arthroscopic applications
+    activity: "Defended Smith & Nephew, Inc. in a patent infringement suit. Three Smith & Nephew electrosurgical devices were accused of infringing ArthroCare patents. Following a jury trial and protracted litigation on multiple fronts, the parties settled by signing product supply and license agreements for bipolar and monopolar arthroscopy products."
+
+  - client: Molecular Devices Corp.
+    case: "Caliper v. Molecular Devices Corp."
+    focus: fluorescence polarization for kinase reaction detection
+    activity: "Defended Molecular Devices in patent infringement suit by Caliper. The case settled following the denial of Caliper’s requested preliminary injunction."
+
+  - client: Genzyme
+    case: "Genzyme v. Genentech"
+    focus: modified tissue plasminogen activator
+    activity: "Represented Genzyme in a patent infringement suit. Genzyme asserted a patent on modified tissue plasminogen activator used as a thrombolytic agent in acute myocardial infarction, and the case involved both patent claims and contract issues. Case settled on confidential terms."
+
+  - client: Cardiogenesis v. PLC
+    focus: biomedical device for laser cardiac surgery
+    activity: Represented PLC in a declaratory judgment patent infringement suit brought by Cardiogenesis. Case settled with Cardiogenesis making royalty payments of at least $2.5 million after a claim construction ruling and several partial summary judgments favorable to PLC.
