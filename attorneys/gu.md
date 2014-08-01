@@ -1,13 +1,10 @@
 ---
 layout: attorney
 
-subject: Turner Boyd
-title: Zhuanjia Gu, Associate
-attorneyName: Zhuanjia Gu
-attorneyTitle: Associate
-attorneyPhone: 650 529 4752
-attorneyEmail: gu
-attorneyVCard: Gu
+firstName: Zhuanjia
+lastName: Gu
+title: Associate
+phone: 650 529 4752
 
 education: |
   * University of California Berkeley, B.S. Electrical Engineering and Computer Science 2001, Chancellor&#8217;s Scholar

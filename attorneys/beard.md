@@ -1,13 +1,10 @@
 ---
 layout: attorney
 
-subject: Turner Boyd
-title: James Beard, Associate
-attorneyName: James Beard
-attorneyTitle: Associate
-attorneyPhone: 650 521 5939
-attorneyEmail: beard
-attorneyVCard: Beard
+firstName: James
+lastName: Beard
+title: Associate
+phone: 650 521 5939
 
 admissions: |
   * California state courts

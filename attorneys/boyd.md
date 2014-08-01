@@ -1,13 +1,10 @@
 ---
 layout: attorney
 
-subject: Turner Boyd
-title: Karen Boyd, Partner
-attorneyName: Karen Boyd
-attorneyTitle: Partner
-attorneyPhone: 650 521 5938
-attorneyEmail: boyd
-attorneyVCard: Boyd
+firstName: Karen
+lastName: Boyd
+title: Partner
+phone: 650 521 5938
 linkedin: www.linkedin.com/pub/karen-boyd/1/104/2a5
 
 education: |

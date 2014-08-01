@@ -1,13 +1,11 @@
 ---
 layout: attorney
 
-subject: Turner Boyd
-title: Matthew A. Smith, Partner
-attorneyName: Matthew A. Smith
-attorneyTitle: Partner
-attorneyPhone: 650 265 6109
-attorneyEmail: smith
-attorneyVCard: Smith
+firstName: Matthew
+middleInitial: A.
+lastName: Smith
+title: Partner
+phone: 650 265 6109
 linkedin: www.linkedin.com/pub/matthew-a-smith/15/36a/448
 publications: |
   * "Design Patents," (e-book) _Patently-O_, Dec. 17, 2012.
@@ -60,7 +58,6 @@ admissions: |
   * United States Patent and Trademark Office
   * Federal District Court for the Eastern District of Texas
   * Practicing under supervision in the State of California.
-
 
 ---
 

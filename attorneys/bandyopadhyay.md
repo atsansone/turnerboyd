@@ -1,13 +1,10 @@
 ---
 layout: attorney
 
-subject: Turner Boyd
-title: Esha Bandyopadhyay, Of Counsel
-attorneyName: Esha Bandyopadhyay
-attorneyTitle: Of Counsel
-attorneyPhone: 650 521 9025
-attorneyEmail: bandyopadhyay
-attorneyVCard: Bandyopadhyay
+firstName: Esha
+lastName: Bandyopadhyay
+title: Of Counsel
+phone: 650 521 9025
 linkedin: www.linkedin.com/pub/esha-bandyopadhyay/0/860/3ba
 
 education: |

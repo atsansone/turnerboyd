@@ -1,13 +1,10 @@
 ---
 layout: attorney
 
-subject: Turner Boyd
-title: Julie Turner, Partner
-attorneyName: Julie Turner
-attorneyTitle: Partner
-attorneyPhone: 650 521 5933
-attorneyEmail: turner
-attorneyVCard: Turner
+firstName: Julie
+lastName: Turner
+title: Partner
+phone: 650 521 5933
 linkedin: www.linkedin.com/in/julieturner
 
 education: |

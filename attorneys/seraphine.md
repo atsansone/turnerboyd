@@ -1,13 +1,10 @@
 ---
 layout: attorney
 
-subject: Turner Boyd
-title: Jennifer Seraphine, Of Counsel
-attorneyName: Jennifer Seraphine
-attorneyTitle: Of Counsel
-attorneyPhone: 650 265 6018
-attorneyEmail: seraphine
-attorneyVCard: Seraphine
+firstName: Jennifer
+lastName: Seraphine
+title: Of Counsel
+phone: 650 265 6018
 
 education: |
   * Jacksonville University, B.A., 1992

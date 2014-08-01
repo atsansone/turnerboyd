@@ -1,13 +1,10 @@
 ---
 layout: attorney
 
-subject: Turner Boyd
-title: Louis Wai, Associate
-attorneyName: Louis Wai
-attorneyTitle: Associate
-attorneyPhone: 650 779 5842
-attorneyEmail: wai
-attorneyVCard: Wai
+firstName: Louis
+lastName: Wai
+title: Associate
+phone: 650 779 5842
 
 education: |
   * University of California, Davis School of Law, J.D., 2013 (Order of the Coif)

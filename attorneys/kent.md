@@ -1,13 +1,10 @@
 ---
 layout: attorney
 
-subject: Turner Boyd
-title: Robert Kent, Associate
-attorneyName: Robert Kent
-attorneyTitle: Associate
-attorneyPhone: 650 265 0749
-attorneyEmail: kent
-attorneyVCard: Kent
+firstname: Robert Kent, Associate
+lastName: Robert Kent
+title: Associate
+phone: 650 265 0749
 
 admissions: |
   * California state courts

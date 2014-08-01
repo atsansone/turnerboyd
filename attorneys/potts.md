@@ -1,13 +1,10 @@
 ---
 layout: attorney
 
-subject: Turner Boyd
-title: Heather Potts, Associate
-attorneyName: Heather Potts
-attorneyTitle: Associate
-attorneyPhone: 650 641 2833
-attorneyEmail: potts
-attorneyVCard: Potts
+firstName: Heather
+lastName: Potts
+title: Associate
+phone: 650 641 2833
 linkedin: www.linkedin.com/pub/heather-potts/9/507/711
 
 admissions: |

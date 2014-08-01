@@ -1,13 +1,10 @@
 ---
 layout: attorney
 
-subject: Turner Boyd
-title: Joshua Masur, Partner
-attorneyName: Joshua Masur
-attorneyTitle: Partner
-attorneyPhone: 650 521 5935
-attorneyEmail: masur
-attorneyVCard: Masur
+firstName: Joshua
+lastName: Masur
+title: Partner
+phone: 650 521 5935
 
 education: |
   * Columbia College, B.A., 1990
