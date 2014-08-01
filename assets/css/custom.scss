@@ -1,35 +1,37 @@
 ---
 ---
 
+@import "bootstrap/variables";
+
 $green: #366D3E;
 $onGreen: #fff;
 $blue: #365499;
+$blue1: 54;
+$blue2: 84;
+$blue3: 153;
 
 $printfont: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 
-$displayfont: "quatro-slab";
+$displayfont: "museo-slab";
 $bodyfont: "proxima-nova","Helvetica Neue Roman", Helvetica, Arial, sans-serif;
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(20%);
+  -ms-transform: translateY(20%);
+  transform: translateY(20%);
+}
+
 
 body {
   font-family: $bodyfont;
   font-size: 14pt;
   font-weight: 200;
+}
+
+body.navbar {
   padding-top: 50px;
-}
-
-.ruby .hero-unit {
-  background: #a90329; /* Old browsers */
-  background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
-  background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
-}
-
-.ruby aside {
-  background-color: #fd9db3;
 }
 
 dt, dd {
@@ -63,8 +65,9 @@ aside h3 {
   font-weight: 400;
 }
 
-#footer, article footer {
-  margin-top: 40px;
+#footer, #page-footer, footer, article footer {
+  margin-top: 20px;
+  font-size: 10pt;
 }
 
 ol {
@@ -88,8 +91,8 @@ aside {
   background-color: #fff;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 
 /* Echo out a label for the example */
@@ -105,8 +108,8 @@ aside {
   border: 1px solid #ddd;
   color: #9da0a4;
   -webkit-border-radius: 4px 0 4px 0;
-     -moz-border-radius: 4px 0 4px 0;
-          border-radius: 4px 0 4px 0;
+  -moz-border-radius: 4px 0 4px 0;
+  border-radius: 4px 0 4px 0;
 }
 
 /* Remove spacing between an example and it's code */
@@ -123,8 +126,8 @@ aside {
   color: #fff;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 
 .bs-docs-example + .command-line {
@@ -156,69 +159,63 @@ pre .info {
 
 /* Simlates the styling of the <pre> tag */
 .codeExample{
-    background: whiteSmoke;
-    padding:10px;
-    border: 1px solid #ccc;
+  background: whiteSmoke;
+  padding:10px;
+  border: 1px solid #ccc;
 }
 
 /* Update to the side menu */
 
 .bs-docs-sidenav {
-    background-color: #FFFFFF;
-    border-radius: 6px 6px 6px 6px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
-    margin: 20px 0 0;
-    padding: 0;
+  background-color: #FFFFFF;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+  margin: 20px 0 0;
+  padding: 0;
 }
 .bs-docs-sidenav > li > a {
-    border: 1px solid #E5E5E5;
-    display: block;
-    margin: 0 0 -1px;
-    padding: 8px 14px;
+  border: 1px solid #E5E5E5;
+  display: block;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
 }
 .bs-docs-sidenav > li:first-child > a {
-    border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
 }
 .bs-docs-sidenav > li:last-child > a {
-    border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
 }
 .bs-docs-sidenav > .active > a {
-    border: 0 none;
-    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1) inset, -1px 0 0 rgba(0, 0, 0, 0.1) inset;
-    padding: 9px 15px;
-    position: relative;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
-    z-index: 2;
+  border: 0 none;
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1) inset, -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+  padding: 9px 15px;
+  position: relative;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  z-index: 2;
 }
 .bs-docs-sidenav .icon-chevron-right {
-    float: right;
-    margin-right: -6px;
-    margin-top: 2px;
-    opacity: 0.25;
+  float: right;
+  margin-right: -6px;
+  margin-top: 2px;
+  opacity: 0.25;
 }
 .bs-docs-sidenav > li > a:hover {
-    background-color: #F5F5F5;
+  background-color: #F5F5F5;
 }
 .bs-docs-sidenav a:hover .icon-chevron-right {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 .bs-docs-sidenav .active .icon-chevron-right, .bs-docs-sidenav .active a:hover .icon-chevron-right {
-    background-image: url("../img/glyphicons-halflings-white.png");
-    opacity: 1;
+  background-image: url("../img/glyphicons-halflings-white.png");
+  opacity: 1;
 }
 .bs-docs-sidenav.affix {
-    top: 40px;
+  top: 40px;
 }
 .bs-docs-sidenav.affix-bottom {
-    bottom: 270px;
-    position: absolute;
-    top: auto;
-}
-
-/* For when you want to make a note in the <pre> tag */
-.exampleAside {
-  color:red;
-  font-weight:900;
+  bottom: 270px;
+  position: absolute;
+  top: auto;
 }
 
 
@@ -230,52 +227,6 @@ pre .info {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   border: 2px solid red;
-}
-
-.chapterbutton h2 {
-	background-color: #339999;
-	margin: 20;
-}
-
-.intexthtml {
-	background-color: #E8E8E8;
-}
-.splitsample {
-
-}
-
-.htmlsample {
-
-}
-
-.projectsample {
-
-}
-
-.htmlaside {
-	background-color: #b1d2ce;
-}
-
-#sidenav {
-
-}
-
-.span2 {
-	margin-top: 20px;
-}
-
-#head {
-	margin-top: 50px;
-	color: #81B6B0;
-
-}
-
-.three-col {
-	 -moz-column-count: 3;
-     -moz-column-gap: 20px;
-     -webkit-column-count: 3;
-     -webkit-column-gap: 20px;
-
 }
 
 .btn { /* cm: to keep following text from butting up  against button */
@@ -291,9 +242,32 @@ pre .info {
   color: $onGreen;
   padding: 0px;
   margin-bottom: 30px;
-  background-image: url("/assets/img/backdrop_clean.jpg");
+  // background-image: url("/assets/img/backdrop_clean.jpg");
   min-height: 250px;
 }
+
+.jumboLightGreen {
+  background-color: lighten($green,20%);
+  color: $onGreen;
+  padding: 0px;
+  margin-bottom: 30px;
+  // background-image: url("/assets/img/backdrop_clean.jpg");
+  min-height: 250px;
+}
+
+.jumboCover {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba($blue1,$blue2,$blue3,0.9), 
+      rgba($blue1,$blue2,$blue3,0.5)
+    ),
+    /* bottom, image */
+    url(/assets/img/variant3/usptobw.png) no-repeat center center fixed;
+  min-height: 100%;
+  color: $onGreen;
+}
+
 
 .mainheading {
   font: 600 64px $bodyfont;
@@ -303,13 +277,41 @@ pre .info {
   vertical-align: bottom;
 }
 
-#page-footer {
-  font-size: 10px;
-  margin-top: 15px;
+.navbar-inverse .navbar-brand, .navbar-default .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  color: lighten($blue, 50%);
 }
 
-.navbar-inverse .navbar-brand, .navbar-default .navbar-brand, .navbar-inverse .navbar-nav > li > a {
-  color: lighten($blue, 30%);
+.tb-white {
+  background-color: white;
+}
+
+.header-brand {
+ font-family: "museo-slab";
+ font-weight: 900;
+ font-size: 24pt;
+}
+
+.navbar-brand {
+ font-family: "museo-slab";
+ font-weight: 900;
+ font-size: 18pt;
+}
+
+.tb-titlefont {
+ font-family: "museo-slab";
+ font-weight: 900;
+}
+
+.tb-turner {
+  color: $blue;
+}
+
+.tb-boyd {
+  color: $green;
+}
+
+.tb-dark-shadow {
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
 }
 
 li.menu-subs > a {
@@ -318,12 +320,153 @@ li.menu-subs > a {
 }
 
 .caption-tight {
-    text-align: left;
-    font-size: 10px;
+  text-align: left;
+  font-size: 10px;
 }
 
 .nav-tabs {
-    margin-bottom: 15px;
-    margin-top: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
+.tb-svc-rollover {
+  color: black;
+  background-color: white;
+}
+
+.tb-svc-rollover:hover {
+  color: white;
+  background-color: $green;
+}
+
+.tb-nf-wrap {
+  color: white;
+  background-color: $green;
+  height: 40px;
+}
+
+.tb-nf-bracket {
+  display: table; 
+}
+
+.tb-nf-scroll {
+  display: table-row;
+}
+
+.tb-nf-head {
+  @include vertical-align;
+  font-weight: 700;
+  display: table-cell;
+}
+
+.tb-nf-body {
+  @include vertical-align;
+  display: table-cell;
+}
+
+.tb-svc-rollover:hover .tb-svc-rollover-stack {
+  color: $green;
+}
+
+.tb-case-block {
+  min-height: 220px;
+}
+
+.tb-front-caption {
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: right;
+  color: darken($blue, 20%);
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+  margin-bottom: 10px;
+}
+
+.tb-btn, .tb-btn:hover {
+  border-color: darken($blue, 40%);
+  background-color: lighten($blue, 20%);
+  color: #fff;
+}
+
+.tb-front-caption h1 {
+  font-weight: 700;
+}
+
+.tb-front-block {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#newsfeed ul {
+  list-style-type: none;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+@media (max-width: $screen-xs-max) { 
+  .truncate {
+   max-width: ($screen-xs-max - ($screen-xs-min / 6));
+ }
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { 
+  .truncate {
+    min-width: $screen-sm-min - ($screen-sm-min / 5);
+    max-width: $screen-sm-max - ($screen-sm-max / 5);
+  }
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) { 
+  .truncate {
+    min-width: $screen-md-min - ($screen-sm-min / 5);
+    max-width: $screen-md-max - ($screen-sm-max / 5);
+  }
+  .tb-front-caption h1 {
+    font-size: 36px;
+  }
+  .tb-front-caption p {
+    font-size: 12pt;
+  }
+}
+@media (min-width: $screen-lg-min) { 
+  .truncate {
+    min-width: $screen-lg-min - ($screen-lg-min / 6);
+  }
+  .tb-front-caption h1 {
+    font-size: 48px;
+  }
+  .tb-front-caption p {
+    font-size: inherit;
+  }
+}
+
+.tb-home-header {
+  background-color: $gray-lighter;
+  font-weight: 700;
+}
+
+.tb-home-header-var3 {
+  background-color: $gray;
+  font-weight: 700;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tb-home-header-var3 h2, .tb-home-header-var3 h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tb-home-header-btn {
+  background-color: $gray-lighter;
+  font-weight: 500;
+  color: $gray;
+  vertical-align: middle;
+  text-align: center;
+  height: auto;
+  padding: 10px;
+  z-index: 90;
+}
